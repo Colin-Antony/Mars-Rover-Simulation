@@ -23,7 +23,8 @@ Here is a list of the custom exceptions handled by my code using the Exception c
 1) Grid dimensions are validated: Integer/float only. Only 2d coordinate accepted  
 2) Obstacle placing: Obstacle should be within the grid.  
 3) Rover Placing: Rover cannot be placed on an obstacle and should be within the grid. Direction the rover faces(Orientation) should also be a valid one. All conditions must satisfy.
-4) Movement Commands: Movement commands are validated. Only M, L and R is accepted.
+4) Movement Commands: Movement commands are validated. Only M, L and R is accepted.  
+5) Coordinate inputs: Anytime coordinates are accepted from the user, we make sure it is a non empty list or tuple. We also ensure if the values within it are int or float only.  
 
 When any of the above exceptions occur along with some unmentioned trivial ones. The user is asked to re-enter the values. Note that for obstacle detection if any one coordinate is invalid, all coordinates must be re-entered.  
    
