@@ -32,4 +32,10 @@ When any of the above exceptions occur along with some unmentioned trivial ones.
 ## General Notes about the code  
 Used time.sleep() methods to make the console outputs more readable by delaying the output.  
 
+## Output Screenshots
+![image](https://github.com/Colin-Antony/Mars-Rover-Simulation/assets/123204978/ce198a12-dc45-4bc9-8d81-26799372f870)  
+![image](https://github.com/Colin-Antony/Mars-Rover-Simulation/assets/123204978/b4363e68-484a-4152-b342-1ca662ba617c)  
+![image](https://github.com/Colin-Antony/Mars-Rover-Simulation/assets/123204978/c08432ad-341e-49cb-bd43-60409a48eca3)  
+
+
 ## HAPPY EXPLORING
