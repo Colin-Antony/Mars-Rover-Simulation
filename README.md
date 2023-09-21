@@ -37,5 +37,7 @@ Used time.sleep() methods to make the console outputs more readable by delaying 
 ![image](https://github.com/Colin-Antony/Mars-Rover-Simulation/assets/123204978/b4363e68-484a-4152-b342-1ca662ba617c)  
 ![image](https://github.com/Colin-Antony/Mars-Rover-Simulation/assets/123204978/c08432ad-341e-49cb-bd43-60409a48eca3)  
 
+Open 'Exception Handling Screemshots' to see some types of exception handling and input validation the code performs"  
+
 
 ## HAPPY EXPLORING
