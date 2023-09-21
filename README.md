@@ -13,7 +13,8 @@ To Run a mini version that only shows how MarsRover class and Command is impleme
 3) GridObstacle handles Grid Creation and Obstacle Placing. GridException is a subclass of the python Exception class that handles any custom exceptions to do with error in user inputs that arent syntactically wrong.
 4) RoverStart handles the starting positon of the rover. RoverException works same as GridException but for RoverStart.  
 5) MarsRover handles the movement logic of the rover. Detects obstacles and skips the command if it leads to a crash. Also has a status report method that outputs where the rover finally ends up.
-6) Commands class is an abstract class with 3 child classes: MoveForward, TurnLeft and TurnRight. This is where polymorphism is expertly demonstrated in the code.  
+6) Commands class is an abstract class with 3 child classes: MoveForward, TurnLeft and TurnRight. This is where polymorphism is expertly demonstrated in the code.
+7) InterfaceCommands is a set of methods that are called in Final Command Interface.py to make the code more readable and easy to debug. It is responsible for accepting user inputs and putting into play the Exception Handling messages mentioned earlier.  
 
 
 ## Exception Handling  
