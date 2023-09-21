@@ -13,6 +13,9 @@ def create_grid():
     while True:
         try:
             n = input().split(",")  # Splits input into an array when it finds a comma
+            if len(n)>2:
+                print("Enter only x and y coordinate")
+                continue
             n = [int(x.strip()) for x in n]  # Removes any dummy whitespaces
             Rover = RoverStart(n[0], n[1])
             # Exception raising
