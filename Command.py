@@ -1,3 +1,5 @@
+"""This code defines an abstract Command class and its concrete subclasses (MoveCommand, TurnLeft, and TurnRight). 
+    Each concrete command implements an execute method that can be called on a rover object to perform the corresponding action."""
 class Command:
     def execute(self, rover):
         pass
