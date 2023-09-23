@@ -1,3 +1,5 @@
+Hello EI Team. I have chosen the first problem statment: Simulating a Mars Rover that can navigate a grid based terrain.
+
 # Mars-Rover-Simulation
 A robust and efficient grid based Mars Rover simulation that demonstrates OOP prinicples, SOLID principles, Exception Handling abilty and Validations.
 
